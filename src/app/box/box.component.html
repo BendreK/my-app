@@ -1,0 +1,12 @@
+<h1>Box Moving App</h1>
+
+<div>
+    <button #addbtn>Add Box </button>
+
+    <button #deletebtn (click)="onDeleteClick()">Delete</button>
+</div>
+
+<div>
+    <ul id="elContainer" #myvalue (click)="onchange($event)">
+    </ul>
+</div>
